@@ -1,0 +1,84 @@
+body{
+  margin: 0; /*quitar margen*/
+  padding: 0; /*quitar padding*/
+  background: url(../imagenes/portada.jpg) no-repeat center top; /*fondo de pagina*/
+  background-size: cover;/*tamaño de imagen en el  fondo*/
+  font-family: sans-serif; /*cambiar tipo de potografia*/
+  height: 100vh; /*tamaño de altura de fondo*/
+}
+
+.login-box{
+  width: 320px; /*altura*/
+  height: 420px; /*anchura*/
+  background: #000;/*color de cuadro*/
+  color: #fff;/*color de letra*/
+  top: 50%; /*centrar cuadro */
+  left: 50%;
+  position: absolute; /*posicionar adenlante de todo*/
+  transform: translate(-50%,-50%);/*centrar cuadro*/
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .barca{
+  height: 100px;
+  width: 100px;
+  border-radius: 20%;/*redondear la imagen */
+  position: absolute; /*posicionar adelante de todo*/
+  top: -50px; /*mover en las Y*/
+  left: 110px;/*mover en las x */
+}
+
+.login-box h1{
+  margin: 0;
+  padding: 0 0 20px;/*espacio hacia abajo 20px*/
+  text-align: center;/*texto centrado*/
+  font-size: 22px;
+
+}
+
+.login-box label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;/*estar mas remarcado*/
+  display: block; /*estar en una sola linea */
+}
+
+.login-box input{
+  width : 100%; /*ancho de todo  */
+  margin-bottom: 20px;/*margen hacia abajo */
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+  border: none; /*quitar borde*/
+  border-bottom: 1px solid #fff; /*poner dorde hacia abajo*/
+  background: transparent; /*trasparente los bordes */
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;/*tamaño de la letra  */
+
+}
+
+.login-box input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;/*anchura*/
+  background:#8f0b09;/*color de fondo*/
+  color: #fff;/*color de letra*/
+  font-size: 18px;/*tamaño de letra*/
+  border-radius: 20px;/*redondear boton*/
+}
+
+.login-box a{
+  text-decoration: none;/*quitar linea de texto*/
+  line-height: 20px;/*separacion entre lineas*/
+  font-size: 15px;/*tamaño de letra*/
+  color: #a79fa2;
+}
+
+/*metodo para cuando pasa el cursor este cambie de color*/
+.login-box a:hover{
+  color: #fff;
+}
